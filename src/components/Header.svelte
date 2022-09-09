@@ -12,7 +12,7 @@
 		<nav class="flex font-mono text-sm gap-8 items-center">
 			<ul class="flex gap-8">
 				{#each sections as section, i}
-					<li class:active={$page.url.pathname === `#${section}`}>
+					<li class:active={$page.url.pathname === `#${section}`} class="hover:text-primary">
 						<a href={`#${section}`}><span class="text-primary">0{i + 1}.</span> {section}</a>
 					</li>
 				{/each}

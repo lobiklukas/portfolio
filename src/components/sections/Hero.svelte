@@ -3,7 +3,7 @@
 	import { Icon } from '@steeze-ui/svelte-icon';
 	import { ArrowRight } from '@steeze-ui/heroicons';
 
-	import Button from './Button.svelte';
+	import Button from '../Button.svelte';
 	import { socials } from '$lib/data';
 </script>
 
