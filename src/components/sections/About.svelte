@@ -1,3 +1,7 @@
+<script>
+	const imgUrl = new URL('/images/me.jpg', import.meta.url).href;
+</script>
+
 <section class="container max-w-5xl mx-auto">
 	<h1
 		class="flex items-center leading-3 text-4xl after:relative after:ml-8 after:h-[1px] after:w-[300px] after:content-[''] after:bg-current"
@@ -26,10 +30,9 @@
 			<div>
 				<img
 					class="rounded-md grayscale hover:filter-none hover:mix-blend-normal transition ease-in-out duration-300 contrast-100 mix-blend-multiply"
-					src="https://media-exp2.licdn.com/dms/image/C4D03AQHJhkCQBZ5HGg/profile-displayphoto-shrink_800_800/0/1593609283511?e=1661990400&v=beta&t=3hTsKXL1A0sn2E08lmndJe7y0H9pmQGaT6TjxPl0dts"
+					src={imgUrl}
 					alt="myphoto"
 				/>
-				<!-- <img src="/images/me-white.png" alt="myphoto" /> -->
 			</div>
 			<div
 				class="max-w-xs w-full group-hover:-translate-x-2  group-hover:-translate-y-2  filter-none h-[320px] transition ease-in-out duration-300 absolute top-8 left-8 border-primary border-4 rounded-md -z-10"
